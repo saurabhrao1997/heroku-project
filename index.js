@@ -16,6 +16,9 @@ app.get("/",(req,res)=>{
    res.send(data)
 })
 
+
+
+
 app.listen(port,()=>{
     console.log(`listen working on port no ${port}`);
 })
